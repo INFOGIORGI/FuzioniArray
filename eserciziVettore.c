@@ -21,8 +21,8 @@ int main(){
 	printf("Il valore %d è presente %d volte nell'array\n",num,frequenza(v,num));
 	
 	int a,b;
-  a = rand()%30;
-  b = rand()%(30-a) + a;
+  	a = rand()%30;
+  	b = rand()%(30-a) + a;
 	printf("Il vettore contiene %d valori compresi tra %d e %d\n",frequenza2(v,a,b),a,b);
 
 	return 0;
@@ -49,9 +49,5 @@ void stampa(int a[]){
 }
 
 int frequenza2(int a[], int x, int y){
-	int cont =0;
-	for (int i=0; i<N; i++)
-	  if(a[i]>=x && a[i]<=y)
-			cont++;
-	return cont;
+
 }
